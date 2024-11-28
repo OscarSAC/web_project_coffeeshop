@@ -263,23 +263,24 @@
   font-size: 16px;
   line-height: 20px;
 }
-
+.form__container_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 0;
+}
 .form__checkbox {
   width: 20px;
   height: 20px;
   margin-right: 12px;
 }
-.form__pseudo-item {
-  display: inline-block; /* ahora puedes especificar el ancho y la altura del elemento span */
-  vertical-align: middle; /* No conoces esta propiedad aún. Esto establecerá la alineación vertical adecuada para el elemento y el texto. Esta propiedad funciona en conjunto con inline-block */
-  width: 20px;
-  height: 20px;
-  border: 1px solid black;
-}
+
 .form__label_direction_right {
-  display: flex;
+  display: inline;
+  align-items: center;
   justify-content: center;
+  text-align: center;
   font-size: 14px;
   line-height: 30px;
-  margin-left: 12px;
 }
