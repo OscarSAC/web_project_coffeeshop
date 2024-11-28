@@ -6,7 +6,6 @@
     <meta name="description" content="Cafeteria de TripleTen" />
     <meta name="author" content="Oscar Sac" />
     <meta name="keywords" content="cafeteria, menu, tripleten, programación" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" href="/favicon.ico.ico" />
     <title>Cafeteria</title>
@@ -34,7 +33,7 @@
               <a class="nav__link" href="#reservation">Reservar una mesa</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Contactos</a>
+              <a class="nav__link" href="#footer">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -162,7 +161,39 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="./images/logo_coffeeshop_light.svg"
+            alt="logo cafeteria"
+          />
+
+          <div class="footer__social">
+            <h3 class="footer__social__social-heading">Redes sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  class="footer_social-icon"
+                  src="./images/facebook_white.svg"
+                  alt="facebook"
+                />
+                <a class="footer__social-link" href="#">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  class="footer_social-icon"
+                  src="./images/instagram_white.svg"
+                  alt="Instagram"
+                />
+                <a class="footer__social-link" href="#">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__circle"></div>
+        <h4 class="footer__copyright">© 2024 Oscar Sac</h4>
+      </footer>
     </div>
   </body>
 </html>
