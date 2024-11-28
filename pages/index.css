@@ -181,6 +181,9 @@
   line-height: 30px;
 }
 .reservation {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
@@ -191,42 +194,38 @@
   display: flex;
   justify-content: center;
   padding-top: 100px;
-  padding-bottom: 80px;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0 auto 80px;
 }
 
+.form {
+  max-width: 385px;
+}
 .reservation__form {
+  margin: 0 auto 120px;
 }
 
 .form__container {
-  max-width: 385px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: auto;
-  padding-bottom: 120px;
   border: 0;
+  padding: 0;
 }
 
 .form__label {
   width: 100%;
-  padding-top: 32px;
-  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 32px;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-
-  /*display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-items: center;
-  margin: auto;
-  border: 0; */
 }
 .form__label_text {
 }
@@ -234,36 +233,35 @@
   margin-top: 8px;
   height: 60px;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 4px;
   padding-bottom: 0px;
   border: 1px solid #ccc;
   box-sizing: border-box;
   font-family: "Inter", Arial, sans-serif;
-  /* font-weight: 500; */
   font-size: 20px;
   line-height: 30px;
 }
 .form__input::placeholder {
-  color: #838383; /* Color del texto del placeholder */
+  color: #838383;
   font-family: "Inter", Arial, sans-serif;
   font-size: 20px;
-  line-height: 30px; /* Tamaño de fuente del placeholder */
-  padding-left: 20px; /* Espacio de 20px a la izquierda (esto se aplica al placeholder) */
-  padding-top: 15px; /* Espacio de 15px arriba (esto también se aplica al placeholder) */
+  line-height: 30px;
+  padding-left: 20px;
+  padding-top: 15px;
 }
 .form__button {
   height: 60px;
   width: 100%;
   background-color: #2f80ed;
   color: #ffffff;
-  margin-top: 32px;
+  margin-top: 0;
+  margin-bottom: 32px;
   border: 0;
   padding: 0;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  /* margin-bottom: 32px; */
 }
 
 .form__checkbox {
