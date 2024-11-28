@@ -180,3 +180,108 @@
   font-size: 20px;
   line-height: 30px;
 }
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.reservation__title {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+}
+
+.form__container {
+  max-width: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 120px;
+  border: 0;
+}
+
+.form__label {
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 0px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  /*display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin: auto;
+  border: 0; */
+}
+.form__label_text {
+}
+.form__input {
+  margin-top: 8px;
+  height: 60px;
+  width: 100%;
+  border-radius: 5px;
+  padding-bottom: 0px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: "Inter", Arial, sans-serif;
+  /* font-weight: 500; */
+  font-size: 20px;
+  line-height: 30px;
+}
+.form__input::placeholder {
+  color: #838383; /* Color del texto del placeholder */
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px; /* Tamaño de fuente del placeholder */
+  padding-left: 20px; /* Espacio de 20px a la izquierda (esto se aplica al placeholder) */
+  padding-top: 15px; /* Espacio de 15px arriba (esto también se aplica al placeholder) */
+}
+.form__button {
+  height: 60px;
+  width: 100%;
+  background-color: #2f80ed;
+  color: #ffffff;
+  margin-top: 32px;
+  border: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* margin-bottom: 32px; */
+}
+
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+.form__pseudo-item {
+  display: inline-block; /* ahora puedes especificar el ancho y la altura del elemento span */
+  vertical-align: middle; /* No conoces esta propiedad aún. Esto establecerá la alineación vertical adecuada para el elemento y el texto. Esta propiedad funciona en conjunto con inline-block */
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.form__label_direction_right {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 30px;
+  margin-left: 12px;
+}
